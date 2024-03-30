@@ -1,0 +1,19 @@
+.home {
+    background-image: url(../images/boat.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+  }
+  
+  h1{
+    text-align: center;
+    padding-top: 50px;
+  }
+  h3{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+
