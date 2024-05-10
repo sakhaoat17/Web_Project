@@ -3,7 +3,7 @@ import axios from 'axios';
 import SecondNav from '../component/SecondNav';
 import CardComp from '../component/CardComp';
 
-export default function Bahamas() {
+export default function Miami() {
   const [boatData, setBoatData] = useState([]);
 
   useEffect(() => {
@@ -19,11 +19,11 @@ export default function Bahamas() {
   }, []); // Empty dependency array to run once on component mount
 
   return (
-    <div>
-      <SecondNav />
-      {boatData
-        .filter(boat => boat.subtitle === "Bahamas")
-        .map((boat, index) => (
+    <div style={{ height: '100vh', width: '100vw', backgroundColor: '#F5E8DD', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      
+      <h2>Recently Added Boats</h2>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        {boatData.slice(-4).map((boat, index) => (
           <CardComp
             key={index}
             title={boat.title}
@@ -34,6 +34,7 @@ export default function Bahamas() {
             boatId={boat.id} // Pass the boat ID as the boatId prop
           />
         ))}
+      </div>
     </div>
   );
 }

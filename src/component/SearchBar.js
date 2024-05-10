@@ -44,7 +44,9 @@ export default function SearchBar() {
 }
 
 const places = [
-  { name: "Miami", route: "/login" },
+  { name: "Miami", route: "/miami" },
   { name: "New York", route: "/new-york" },
+  { name: "Cox's Bazar", route: "/cox" },
+  { name: "Bahamas", route: "/bahamas" },
   // Add more places as needed
 ];

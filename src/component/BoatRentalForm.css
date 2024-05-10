@@ -1,15 +1,16 @@
 .form-container{
     width: 30%;
-    margin-top: -50px;
 }
-.back{
-    background-color:#A0E9FF ;
+.bG{
+    background-color:#E5DDC5;
+    margin-top: -10px;
 
 }
-.backk{
-    background-image: url(../images/ocean.jpg);
+.bGG{
+    background-image: url(../images/boat.jpg);
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 @media screen and (max-width:1000px) {
     .form-container{

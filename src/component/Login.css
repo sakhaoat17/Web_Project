@@ -6,7 +6,9 @@
 
 }
 .backGG{
-    background-color: #FFF7F1;
+    background-image: url(../images/ocean.jpg);
+    background-size: cover;
+    background-position: center;
 }
 @media screen and (max-width:1000px) {
     .form-container{

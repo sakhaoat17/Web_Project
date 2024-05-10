@@ -1,0 +1,25 @@
+.bc {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    padding-top: 200px; /* Add padding to the top */
+  }
+  
+  .form-container {
+    background-color: #A0E9FF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    margin-top: 50px; /* Add margin to the top */
+  }
+  
+  
+  
+  @media screen and (max-width: 767px) {
+    .form-container {
+      width: 100%; /* Make the form full width on smaller screens */
+      max-width: 400px; /* Set a maximum width */
+    }
+  }
+  

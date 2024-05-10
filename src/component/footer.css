@@ -1,0 +1,59 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 70px 0; /* Increase the top and bottom padding */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px; /* Set a maximum width for the footer content */
+    margin: 0 auto; /* Center the footer content */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
